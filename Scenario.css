@@ -9,6 +9,10 @@
         background-position: top;
     }
 
+    footer {
+        clear: left;
+    }
+
     .quarter {
         float: left;
         width: 24.44444%;
@@ -16,6 +20,12 @@
         column-rule:4px;
         column-rule-color:aqua;
         
+    }
+
+    #end {
+        font-family: trial;
+        color: #87423c;
+
     }
 
     h1 {

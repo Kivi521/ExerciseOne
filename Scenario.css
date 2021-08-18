@@ -3,7 +3,7 @@
 
 @media screen {
     body {
-        background-image: url('wwwroot/image/back_beach.jpg');
+        background-image: url('image/back_beach.jpg');
         background-size: 1920px 100px;
         background-repeat: no-repeat;
         background-position: top;
@@ -21,6 +21,10 @@
         column-rule-color:aqua;
         
     }
+    .book{
+        float:left;
+        width:24.444
+    }
 
     #end {
         font-family: trial;
@@ -32,21 +36,22 @@
         text-align: center;
         font-family: Helvetica, Calibri, suitable default;
         color: #87423c;
+        size:36px;
+    }
+    h2{
+        color: #4d1d18;
     }
     h3 {
         color: #4d1d18;
         text-size-adjust: 24px;
     }
+
     p{
         line-height:150%;
 
     }
-    header{
-        background:
-    }
 
    
-    /* navigation styles */
     nav ul {
         list-style: none;
         text-align: center;
@@ -67,7 +72,6 @@
     }
 
         
-    /* links state */
     nav a:link {
         text-transform: uppercase;
         text-decoration: none;

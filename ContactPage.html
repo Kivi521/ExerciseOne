@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Scenario.css" />
+    <title>contact Page</title>
+    <style>
+      
+       form{
+           float:right;
+           position:absolute;
+           right:15%;
+           bottom:45%;
+       }
+        
+        form: {
+            width: 430px;
+            margin: 0 auto;
+            background-color: #6347f4； border：10px solid black;
+            border-radius: 5px;
+            padding: 30px;
+            box-shadow: 10px 10px 3px #8570ef;
+        }
+        label{
+            display:inline-block;
+            width:80px;
+        }
+        input{
+            width:240px;
+        }
+            input[type=submit], input[type=reset] {
+                width:122px;
+                height:50px;
+            }
+            input[type=submit]{
+                margin-left:83px;
+            }
+            input:focus {
+                background-color: #e0f4f3;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+    </div>
+    <header>
+        <nav>
+
+            <ul>
+                <li id="homePageLink"><a href="homePage.html">Home page</a></li>
+                <li id="BookingPageLink"><a href="BookingPage.html">Booking Page</a></li>
+                <li id="ContactPagetPageLink"><a href="ContactPage.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+   
+        <p id="p1">
+            Contact number:0435 123 456<br />Address:42 Holyrood Avenue Sorrento VIC 3943<br />Email-address:apartmentrenting@gmail.com
+        </p>
+        <img src="image/Address.png" alt="map" style="width:50%">
+            <form action="ThankyouPage.html" method="get">
+                <label for="txtName">Name:</label>
+                <input id="txtName type="text" />
+                <br />
+                <label for="txtEmail">Email:</label>
+                <input id="txtEmail type="email" />
+                <br />
+                <label for="txtPhoneNo">PhoneNo:</label>
+                <input id="txtPhoneNo type="number" />
+                <br />
+                <label for="txtGender">Gender:</label>
+                <input id="txtGender type="text" list="Gender" />
+                <datalist id="Gender">
+                    <option value="Male"></option>
+                    <option value="Female"></option>
+                </datalist>
+                <br />
+                <input type="submit" />
+                <input type="reset" />
+            </form>
+    
+    <footer>
+        <p id="end">Please follow our social media</p>
+        <img src="image/facebook_small.png" alt="Facebook" style="width:3%" />
+        <img src="image/instagram_small.png" alt="Instagram" style="width:3%" />
+        <img src="image/youtube-variation_small.png" alt="youtube" style="width:3%" />
+        <img src="image/twitter_small.png" alt="twitter" style="width:3%" />
+        <img src="image/paypal_small.png" alt="paypal" style="width:3%" />
+    </footer>
+</body>
+</html>

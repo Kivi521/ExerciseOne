@@ -21,6 +21,16 @@
         column-rule-color:aqua;
         
     }
+
+    .half {
+        float: left;
+        width: 49%;
+        padding:0 8px;
+        column-rule:4px;
+        column-rule-color:aqua;
+        
+    }
+
     .book{
         float:left;
         width:24.444
